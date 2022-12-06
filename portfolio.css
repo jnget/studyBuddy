@@ -1,0 +1,114 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background-color:#e98074;
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* portrait*/
+
+.apple {
+    width: 100%;
+    
+}
+
+/* nav */
+.navbar.navbar-expand-lg.fixed-top.navbarScroll {
+    background-color: black;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link {
+    color:white;
+}
+
+/*about */
+.spacepls {
+    margin: 0px 10px;
+}
+
+.container.mt-4.pt-4 {
+    background-color: #eae7dc;
+    padding: 3% 2%;
+}
+
+#about {
+    background-color: #eae7dc;
+}
+
+
+
+/* experience */
+
+#services {
+    background-color: #d8c3a5;
+    padding: 3% 2%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .fa-solid {
+    color:lightcoral;
+}
+.servicesText:hover {
+    border: 1px solid lightcoral;
+}
+
+/*shadowing*/
+.container.mt-3 {
+    padding: 3% 2%;
+}
+#portfolio {
+    background-color:#d8c3a5;
+}
+.card-body {
+    background-color: #eae7dc;
+}
+.btn.btn-succes {
+    background-color: lightcoral;
+
+}
+.card-img-top {
+    width: 10%;
+}
+.fa-solid {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: .5%;
+}
